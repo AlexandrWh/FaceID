@@ -1,0 +1,13 @@
+<!doctype html>
+<title>Python Flask Upload Multiple Images and Display them</title>
+
+<h2>cosine similarity = {{cosim}}</h2>
+
+{% if filenames %}
+	{% for filename in filenames %}
+		<div>
+			<img src="{{filename}}">
+
+		</div>
+	{% endfor %}
+{% endif %}

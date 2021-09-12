@@ -1,0 +1,28 @@
+# ML
+matplotlib
+numpy
+opencv-python
+pandas
+pillow
+scikit-image
+seaborn
+torch
+torchvision
+torchsummary
+tqdm
+scikit-multilearn
+faiss-cpu
+
+# WEB
+flask
+simplejson
+
+# Utils
+cachetools
+python-dotenv
+watchdog
+grabutils
+
+# SSH
+paramiko[ed25519]
+scp
